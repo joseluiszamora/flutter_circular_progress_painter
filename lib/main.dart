@@ -1,4 +1,5 @@
-import 'package:circular_progress_painter/src/pages/circular_progress_page.dart';
+import 'package:circular_progress_painter/src/labs/circular_progress_page.dart';
+import 'package:circular_progress_painter/src/pages/graficas_circulares_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +18,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const CircularProgressPage());
+        home: const GraficasCircularesPage());
   }
 }
